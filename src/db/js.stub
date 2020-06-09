@@ -1,0 +1,15 @@
+/**<% '此文件为模版文件，请勿修改内容' %>
+ * 本次更新内容
+ * - xxx
+ */
+
+exports.up = function (knex, Promise) {
+  return knex.schema.createTable('xxx', (t) => {
+    t.increments()
+    t.timestamp()
+  })
+}
+
+exports.down = function (knex, Promise) {
+  return knex.schema.dropTable('xxx')
+}
