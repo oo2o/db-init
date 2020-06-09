@@ -1,9 +1,9 @@
 {
-  "name": "iot-drm",
+  "name": "db-auto",
   "version": "1.0.0",
   "description": "test",
   "main": "index.js",
-  "author": "eeve",
+  "author": "oo2o",
   "license": "ISC",
   "scripts": {
     "db-init": "./node_modules/.bin/cross-env NODE_ENV=development DEBUG=knex:* ./node_modules/.bin/babel-node ./node_modules/knex/bin/cli.js seed:run --knexfile ./src/db/knexfile.js",
